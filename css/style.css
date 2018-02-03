@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	font-family:  'Roboto';
+	font-size: 18px;
+}
+header {
+	padding-top: 59px;
+	padding-bottom: 22px;
+	background-color: #3a7dfd;
+	color: #ffffff
+}
+.Paragraf {
+	margin-top: 50px;
+}
+.header title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 36.81px;
+    margin-top: 21px; 
+}
+.header-subtitle {
+	margin-top: 20px;
+}
+.button {
+box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+border-radius: 50px;
+background-color: #ffffff;
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+padding: 17px 55px;
+margin-top: 13px;
+}
+.small {
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	margin-top: 9px;
+}
+.header-button-block {
+	max-width: 210px
+}
+/* Section portfolio */
+.portfolio {
+	background: color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-block {
+	background-color: #fff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+}
+.portfolio-title{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #072b6f;
+	margin-top: 10px;
+}
+.portfolio-subtitle {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #7bb9ff;
+}
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
+}
+.portfolio-col {
+	padding-left: 51px;
+	padding-right: 50px;
+}
+.klan {
+	color: #072b6f;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 800;
+text-decoration: underline;
+}
+footer {
+	background-color: #3a7dfd;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.autfer {
+	font-size: 24px;
+	margin-bottom: 7px;
+}
+.text {
+	margin-bottom: 0;
+}
+.social-block a {
+	display: inline-block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.footer-va {
+	text-align: center;
+}
+.text {
+	margin-bottom: 13px;
+}
+.buttun {
+	display: inline-block;
+	border:1px solid #ffffff;
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 50px;
+	padding: 12px 40px;
+}
+
+@media (max-width: 1200px) {
+	.Paragraf {
+	margin-top: 30px;
+   }
+}
+ 
+ @media (max-width: 992px) {
+ 	.ernar {
+ 		display: none;
+ 	}
+ .header-title {
+ 	margin-top: 10px;
+ }
+ .autfer {
+ 	font-size: 18px
+ }
+ .text {
+ 	font-size: 14px
+ }
+ .social-block img {
+ 	width: 30px
+ }
+ .footer-va {
+ 	font-size: 14px;
+ 	padding: 8px 35px;
+ }
+ @media (max-width: 1200px) {
+ .portfolio-col {
+ 	width: 2022px;
+ 	height: 1022px; 
+    }
+ }
+ @media (max-width: 768) {
+ 	.portfolio-col {
+ 		padding-left: 20px;
+ 	padding-right: 20px;
+ }
+ 	.col-md-6 {
+ 			padding-left: 20px;
+ 	padding-right: 20px;
+ 	}
+ 	.auther, .text {
+ 		text-align: center;
+ 	}
+ 	}
